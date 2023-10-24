@@ -1,0 +1,28 @@
+2
+        <div class="section__right--bar">
+          <div class="section__right--bar--left">
+           
+            <p></p>
+          </div>
+          <div class="section__right--bar--right">
+            <p><span>92</span> / 100</p>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="section__right--bar">
+          <div class="section__right--bar--left">
+            <p></p>
+          </div>
+          <div class="section__right--bar--right">
+            <p><span>61</span> / 100</p>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="section__right--bar">
+          <div class="section__right--bar--left">
+            <p></p>
+          </div>
+          <div class="section__right--bar--right">
+            <p><span>72</span> / 100</p>
+          </div>
+        </div>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <!-- Your Result 76 of 100 Great You scored higher than 65% of the people who
+    have taken these tests. Summary Reaction 80 / 100 Memory 92 / 100 Verbal 61
+    / 100 Visual 72 / 100 Continue -->
+
+    <section class="section">
+      <div class="section__left">
+        <h1 class="section__left--h1">Your Result</h1>
+        <div class="section__left--circle">
+          <h1 class="section__left--circle--h1">76</h1>
+          <p id="section__left--circle--p" class="section__left--circle--p">
+            of 100
+          </p>
+        </div>
+        <h2 class="section__left--h2">Great</h2>
+        <p class="section__left--p">
+          You scored higher than 65% of the people who have taken . these tests.
+        </p>
+      </div>
+      <!-- right section start -->
+      <div class="section__right">
+        <h1 class="section__right--h1">Summary</h1>
+        <!-- 1 -->
+        <div class="section__right--bar section__right--bar--bar1">
+          <div class="section__right--bar--left section__right--bar--1">
+            <img
+              src="./assets/images/icon-reaction.svg"
+              alt="icon of reaction"
+            />
+            <p class="section__right--bar--left--p">Reaction</p>
+          </div>
+          <div class="section__right--bar--right">
+            <p>80 <span id="section__right--bar--right--apan">/ 100</span></p>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="section__right--bar section__right--bar--bar2">
+          <div class="section__right--bar--left section__right--bar--2">
+            <img src="./assets/images/icon-memory.svg" alt="icon of Memory" />
+            <p class="section__right--bar--left--p">Memory</p>
+          </div>
+          <div class="section__right--bar--right">
+            <p>92 <span id="section__right--bar--right--apan">/ 100</span></p>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="section__right--bar section__right--bar--bar3">
+          <div class="section__right--bar--left section__right--bar--3">
+            <img src="./assets/images/icon-verbal.svg" alt="icon of Verbal" />
+
+            <p class="section__right--bar--left--p">Verbal</p>
+          </div>
+          <div class="section__right--bar--right">
+            <p>61 <span id="section__right--bar--right--apan">/ 100</span></p>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="section__right--bar section__right--bar--bar4">
+          <div class="section__right--bar--left section__right--bar--4">
+            <img src="./assets/images/icon-visual.svg" alt="icon of Visual" />
+
+            <p class="section__right--bar--left--p">Visuel</p>
+          </div>
+          <div class="section__right--bar--right">
+            <p>72 <span id="section__right--bar--right--apan">/ 100</span></p>
+          </div>
+        </div>
+
+        <button class="section__right--button">Continue</button>
+      </div>
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a target="_blank" href="https://github.com/sameerkali">Sameer Faridi</a>.
+    </div>
+  </body>
+</html>
